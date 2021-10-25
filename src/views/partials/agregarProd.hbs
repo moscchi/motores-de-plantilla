@@ -1,0 +1,32 @@
+<div class="container">
+    <form action="http://localhost:8080/productos" method="post" enctype="application/x-www-form-urlencoded">
+        <h4>Ingresar un producto</h4>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon2">Titulo: </span>
+          <input type="text" class="form-control" name="title" placeholder="Ej papita" aria-label="Recipient's username"
+            aria-describedby="basic-addon2">
+        </div>
+        <div class="input-group mb-3">
+          <span class="input-group-text">Precio: $</span>
+          <input type="number" class="form-control" aria-label="Amount (to the nearest dollar)" name="price">
+          <span class="input-group-text">.00</span>
+        </div>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon3">URL de la imagen del producto:</span>
+          <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3"
+            placeholder="https://www.imagen.com/imagen" name="thumbnail">
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar producto</button>
+      </form>
+      <form action="http://localhost:8080/productos" method="get">
+        <button type="submit" onclick="isActiveFunction({{isActive}})"  class="btn btn-info">Volver a lista de productos</button>
+      </form>
+      
+</div>
+<script>
+            function isActiveFunction(param){
+                param = !param;
+                console.log(param)
+                window.location.href = 'http://localhost:8080/productos';
+            }
+        </script>
