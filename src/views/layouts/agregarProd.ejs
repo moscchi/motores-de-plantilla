@@ -1,3 +1,7 @@
+<html lang="es">
+<head>
+    <%- include('../partials/head');%> 
+</head>
 <div class="container">
     <form action="http://localhost:8080/productos" method="post" enctype="application/x-www-form-urlencoded">
         <h4>Ingresar un producto</h4>
@@ -18,15 +22,12 @@
         </div>
         <button type="submit" class="btn btn-primary">Enviar producto</button>
       </form>
-      <form action="http://localhost:8080/productos" method="get">
-        <button type="submit" onclick="isActiveFunction({{isActive}})"  class="btn btn-info">Volver a lista de productos</button>
-      </form>
+      <button type="submit" onclick="yendo()"  class="btn btn-info">Volver a lista de productos</button>
+
       
 </div>
 <script>
-            function isActiveFunction(param){
-                param = !param;
-                console.log(param)
-                window.location.href = 'http://localhost:8080/productos';
+            function yendo(){
+                window.location.href = 'http://localhost:8080/';
             }
         </script>

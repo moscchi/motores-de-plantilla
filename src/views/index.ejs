@@ -1,0 +1,27 @@
+<html lang="es">
+<head>
+    <%- include('./partials/head');%> 
+</head>
+<body class="container">
+    <div class="botonera">
+        <a href='http://localhost:8080/productos' class="btn btn-info">Agregar un producto</a>
+    </div>
+    <% if(products.length > 0){ %>
+     <% products.forEach((prod) => { %> 
+            <table>
+                <thead class="t-title text-center">
+                    <tr>
+                        <th><%= prod.id %> </th>
+                        <th><%= prod.title %></th>
+                    </tr>
+                </thead>
+                <tbody class="t-body text-center">
+                        <th>$<%= prod.price %></th>
+                        <th><img src="<%=prod.thumbnail%>" style="width: 150px; height: 200px;" ></th>
+                </tbody>
+        <% }); %>
+        <% } else{ %>  
+        <p>No hay productos para mostrar</p> 
+        <% } %>
+</body>
+</html>
