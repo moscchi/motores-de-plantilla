@@ -25,4 +25,13 @@ const addProduct = async (req, res) =>{
     }
 }
 
-module.exports = {getProducts, addProduct};
+const navigation = async (req, res) => {
+    try {
+        const products = await getProductsService();
+        res.render('main', {products, isActive: true})  
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+module.exports = {getProducts, addProduct, navigation};

@@ -60,18 +60,6 @@
     "id": 11
   },
   {
-    "title": "123",
-    "price": "123",
-    "thumbnail": "asd",
-    "id": 12
-  },
-  {
-    "title": "123",
-    "price": "123",
-    "thumbnail": "asd",
-    "id": 13
-  },
-  {
     "title": "Mayonesa",
     "price": "90",
     "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_698198-MLA44923431669_022021-O.webp",
@@ -84,84 +72,9 @@
     "id": 15
   },
   {
-    "title": "asd",
-    "price": "123",
-    "thumbnail": "asdasd",
+    "title": "Llavero Star Wars",
+    "price": "500",
+    "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_898129-MLA44335629969_122020-O.webp",
     "id": 16
-  },
-  {
-    "title": "asd",
-    "price": "123",
-    "thumbnail": "asd",
-    "id": 17
-  },
-  {
-    "title": "asd",
-    "price": "123",
-    "thumbnail": "asd",
-    "id": 18
-  },
-  {
-    "title": "123",
-    "price": "2",
-    "thumbnail": "asdads",
-    "id": 19
-  },
-  {
-    "title": "asd",
-    "price": "123",
-    "thumbnail": "asd",
-    "id": 20
-  },
-  {
-    "title": "1314",
-    "price": "123",
-    "thumbnail": "123",
-    "id": 21
-  },
-  {
-    "title": "22",
-    "price": "2",
-    "thumbnail": "2",
-    "id": 22
-  },
-  {
-    "id": 23
-  },
-  {
-    "id": 24
-  },
-  {
-    "id": 25
-  },
-  {
-    "title": "123",
-    "price": "321",
-    "thumbnail": "23",
-    "id": 26
-  },
-  {
-    "title": "123",
-    "price": "321",
-    "thumbnail": "23",
-    "id": 27
-  },
-  {
-    "title": "123",
-    "price": "321",
-    "thumbnail": "23",
-    "id": 28
-  },
-  {
-    "title": "",
-    "price": "",
-    "thumbnail": "",
-    "id": 29
-  },
-  {
-    "title": "",
-    "price": "",
-    "thumbnail": "",
-    "id": 30
   }
 ]
