@@ -1,12 +1,10 @@
 const getProductsService = require('../services/getProducts');
 const addProductService = require('../services/postProduct');
 
-let isActive = true;
-
 const getProducts = async (_, res) => {
     try {
         const products = await getProductsService();
-        res.render("main", {products, isActive: false});
+        res.render("./layouts/agregarProd.pug", {products});
     } catch (e) {
         console.log(e);
     }
@@ -18,11 +16,18 @@ const addProduct = async (req, res) =>{
         const newObj = await addProductService(req);
         const products = await getProductsService();
         console.log(newObj);
-        isActive = true;
-        res.render("main", {products, isActive: true});
+        res.render("main.pug", {products});
     } catch (e) {
         console.log(e);
     }
 }
 
-module.exports = {getProducts, addProduct};
+const navigation = async (req, res) => {
+    try {
+        const products = await getProductsService();
+        res.render('main.pug', {products})  
+    } catch (error) {
+        console.log(error);
+    }
+}
+module.exports = {getProducts, addProduct, navigation};

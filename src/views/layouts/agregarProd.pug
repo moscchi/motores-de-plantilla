@@ -1,0 +1,17 @@
+doctype html
+html
+    head 
+        title='Lista de productos'
+        meta(charset="utf-8")
+        link(rel="stylesheet" href="style.css")
+    body
+    form(action="http://localhost:8080/productos", method="post", enctype="application/x-www-form-urlencoded")
+        p Title:
+            input(type="text" name="title" placeholder="")
+        p Price:
+            input(type="text" name="price" placeholder="")
+        p Link img:
+            input(type="text" name="thumbnail" placeholder="")
+        input(type="submit")
+    form(action="http://localhost:8080/productos", method="get", enctype="application/x-www-form-urlencoded")
+        a(href='/')='Volver a la lista'

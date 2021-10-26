@@ -1,0 +1,22 @@
+doctype html
+html
+    head 
+        title='Lista de productos'
+        meta(charset="utf-8")
+        link(rel="stylesheet" href="style.css")
+    body        
+        h1="Lista de productos"
+        a(href='/' + 'productos')='Agregar producto'
+            - var cont = 0
+        each prod  in products
+            - var condicional = (cont === 0)
+            if condicional
+                .card-1
+                    h3(class='producto')='#'+prod.id + " | " + prod.title + " $ " + prod.price
+                    img(src=`${prod.thumbnail}`)
+                    - cont = 1
+            else
+                .card-2
+                    h3(class='producto')='#'+prod.id + " | " + prod.title + " $ " + prod.price
+                    img(src=`${prod.thumbnail}`)
+                    - cont = 0

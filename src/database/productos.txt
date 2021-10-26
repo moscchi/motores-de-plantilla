@@ -6,12 +6,6 @@
     "id": 1
   },
   {
-    "title": "termo",
-    "price": "3000",
-    "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_724447-MLA43695344068_102020-O.webp",
-    "id": 2
-  },
-  {
     "title": "Termo",
     "price": 3000,
     "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_934089-MLA42441068436_072020-O.webp",
@@ -60,108 +54,15 @@
     "id": 11
   },
   {
-    "title": "123",
-    "price": "123",
-    "thumbnail": "asd",
-    "id": 12
-  },
-  {
-    "title": "123",
-    "price": "123",
-    "thumbnail": "asd",
-    "id": 13
-  },
-  {
     "title": "Mayonesa",
     "price": "90",
     "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_698198-MLA44923431669_022021-O.webp",
     "id": 14
   },
   {
-    "title": "Mayonesa",
-    "price": "90",
-    "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_698198-MLA44923431669_022021-O.webp",
+    "title": "salchichas",
+    "price": "125",
+    "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_860119-MLA45699657030_042021-O.webp",
     "id": 15
-  },
-  {
-    "title": "asd",
-    "price": "123",
-    "thumbnail": "asdasd",
-    "id": 16
-  },
-  {
-    "title": "asd",
-    "price": "123",
-    "thumbnail": "asd",
-    "id": 17
-  },
-  {
-    "title": "asd",
-    "price": "123",
-    "thumbnail": "asd",
-    "id": 18
-  },
-  {
-    "title": "123",
-    "price": "2",
-    "thumbnail": "asdads",
-    "id": 19
-  },
-  {
-    "title": "asd",
-    "price": "123",
-    "thumbnail": "asd",
-    "id": 20
-  },
-  {
-    "title": "1314",
-    "price": "123",
-    "thumbnail": "123",
-    "id": 21
-  },
-  {
-    "title": "22",
-    "price": "2",
-    "thumbnail": "2",
-    "id": 22
-  },
-  {
-    "id": 23
-  },
-  {
-    "id": 24
-  },
-  {
-    "id": 25
-  },
-  {
-    "title": "123",
-    "price": "321",
-    "thumbnail": "23",
-    "id": 26
-  },
-  {
-    "title": "123",
-    "price": "321",
-    "thumbnail": "23",
-    "id": 27
-  },
-  {
-    "title": "123",
-    "price": "321",
-    "thumbnail": "23",
-    "id": 28
-  },
-  {
-    "title": "",
-    "price": "",
-    "thumbnail": "",
-    "id": 29
-  },
-  {
-    "title": "",
-    "price": "",
-    "thumbnail": "",
-    "id": 30
   }
 ]
